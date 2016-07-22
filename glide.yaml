@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/labstack/echo
+- package: github.com/Sirupsen/logrus
+- package: github.com/gocraft/dbr
+- package: github.com/garyburd/redigo
+  subpackages:
+  - redis

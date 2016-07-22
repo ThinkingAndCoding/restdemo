@@ -1,0 +1,59 @@
+hash: 5a51c106d6713afc0d1d5caa7ac301fbdf69871d9f76ab03a7d8094877d8f94d
+updated: 2016-07-22T09:02:54.773876249+08:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 01aeca54ebda6e0fbfafd0a524d234159c05ec20
+- name: github.com/garyburd/redigo
+  version: b8dc90050f24c1a73a52f107f3f575be67b21b7c
+  subpackages:
+  - redis
+  - internal
+- name: github.com/go-sql-driver/mysql
+  version: 3654d25ec346ee8ce71a68431025458d52a38ac0
+- name: github.com/gocraft/dbr
+  version: 516ee9acfef4b1a281674c03cce642090e9cf852
+  subpackages:
+  - dialect
+- name: github.com/klauspost/compress
+  version: 14eb9c4951195779ecfbec34431a976de7335b0a
+  subpackages:
+  - flate
+  - gzip
+  - zlib
+- name: github.com/klauspost/cpuid
+  version: 09cded8978dc9e80714c4d85b0322337b0a1e5e0
+- name: github.com/klauspost/crc32
+  version: 19b0b332c9e4516a6370a0456e6182c3b5036720
+- name: github.com/labstack/echo
+  version: 579cb79a41a2e931699bad83111728d78aa11d48
+  subpackages:
+  - engine/fasthttp
+  - middleware
+  - engine
+  - log
+- name: github.com/labstack/gommon
+  version: 445cf40e6de4cbef35daf3285ff5212c91e78262
+  subpackages:
+  - log
+  - bytes
+  - color
+  - random
+- name: github.com/mattn/go-colorable
+  version: 9056b7a9f2d1f2d96498d6d146acd1f9d5ed3d59
+- name: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
+- name: github.com/Sirupsen/logrus
+  version: a283a10442df8dc09befd873fab202bf8a253d6a
+- name: github.com/valyala/bytebufferpool
+  version: 8ebd0474e5a2f0a5c7a74ad2bf421a1d1a90264f
+- name: github.com/valyala/fasthttp
+  version: 45697fe30a130ec6a54426a069c82f3abe76b63d
+  subpackages:
+  - fasthttputil
+- name: github.com/valyala/fasttemplate
+  version: 3b874956e03f1636d171bda64b130f9135f42cff
+- name: golang.org/x/net/context
+  version: ""
+- name: golang.org/x/sys/unix
+  version: ""
+devImports: []
